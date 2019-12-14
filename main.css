@@ -1,0 +1,75 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+header, footer {
+    display: flex;
+    justify-content: center; 
+    background-color: #3578E5;
+    color: white;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: rgb(237, 240, 245);
+ 
+}
+
+nav ul, footer ul {
+    display: flex;  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+li {
+    padding: .95em; 
+}
+
+
+img {
+    height: 30%;
+    width: 30%; 
+}
+
+.box, a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.blog-image {
+    background-color: #3578E5;
+    width: 40%;
+
+}
+
+figcaption {
+    font-size: 1.1em; 
+    background-color: rgb(237, 240, 245); 
+}
+
+header, nav, p, footer {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+/* Media query for medium phone */
+
+
+
+
+/* Media query for large phone */
+
+/* Media query for tablet */
+
+/* Media query for desktop */

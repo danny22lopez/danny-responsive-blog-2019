@@ -1,3 +1,5 @@
+/* All of the initial code was created from a small mobile view for the range of 320px to 375px */
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -27,9 +29,9 @@ nav ul, footer ul {
 }
 
 
-
 li {
-    padding: .95em; 
+    padding-left: .45em;
+    padding-right: .45em; 
 }
 
 
@@ -61,11 +63,41 @@ header, nav, p, footer {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+button {
+   
+    background-color: orange;  
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em; 
+}
 
 
-/* Media query for medium phone */
 
+/* Media query for medium phone with a range of 375px to 425px */
 
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .blog-image {
+        background-color: #3578E5;
+        width: 60%;
+    }
+
+    nav li {
+        font-size: 1.5em; 
+    }
+
+    header {
+        font-size: 2em; 
+    }
+
+    figcaption {
+        font-size: 1.5em; 
+        background-color: orange; 
+        color: white; 
+    }
+}
 
 
 /* Media query for large phone */

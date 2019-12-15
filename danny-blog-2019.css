@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+header, footer {
+    display: flex;
+    justify-content: center; 
+    background-color: #3578E5;
+    color: white;  
+    padding: 5px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: rgb(237, 240, 245);
+ 
+}
+
+nav ul, footer ul {
+    display: flex;  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+li {
+    padding-left: .45em;
+    padding-right: .45em; 
+}
+
+
+header, nav, p, footer {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+button {
+   
+    background-color: orange;  
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em; 
+}
+
+.author-info {
+    text-align: center;
+}
+
+#avatar {
+    width: 25%; 
+}
+
+nav li {
+    font-size: 1.3em; 
+}
+
+.author-info {
+    font-size: .9em;
+}
+
+section p {
+    font-size: 1.3em; 
+}
+
+.fa {
+    padding: .3em;  
+}
+
+

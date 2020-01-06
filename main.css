@@ -1,5 +1,11 @@
 /* All of the initial code was created from a small mobile view for the range of 320px to 375px */
 
+@import "danny-blog-udacity-2019/header.css";
+@import "danny-blog-udacity-2019/nav.css";
+@import "danny-blog-udacity-2019/footer.css";
+@import "danny-blog-udacity-2019/danny-blog-2019.css"; 
+ 
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -14,27 +20,11 @@ a:visited {
     text-decoration: none;
   }
 
-header, footer {
-    display: flex;
-    justify-content: center; 
-    background-color: #3578E5;
-    color: white;  
-    padding: 5px; 
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly; 
-    background-color: rgb(237, 240, 245);
- 
-}
-
 nav ul, footer ul {
     display: flex;  
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 
